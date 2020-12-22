@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+*{
+    background-color: rgb(74, 140, 170);
+}
+
+.customFont {
+    font-family: 'Slabo 27px', serif;
+    font-weight: bold;
+}
+
+.imagenDiego {
+    border-radius: 50%;
+}
+
+.containerList {
+    line-height: 30px;
+}
+
+li {
+    letter-spacing: .5px;
+}
+
+.containerAll {
+    border: solid 2px #a9aeb0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
